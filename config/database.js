@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-request('dotenv').config()
+require('dotenv').config()
 
 
 const dbConnect = () => {
